@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda en Línea</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hero">
+            <h1>Bienvenido a Nuestra Tienda</h1>
+            <h1> K Y L </h1>
+            <p>Encuentra los mejores productos a precios increíbles</p>
+        </div>
+    </header>
+    <div class="container">
+        <div id="product-list">
+            <!-- Productos se generarán aquí dinámicamente -->
+        </div>
+        <div class="cart">
+            <h3>Carrito de Compras</h3>
+            <div id="cart-items">
+                <p>Tu carrito está vacío.</p>
+            </div>
+            <div>
+                <label for="name">Nombre:</label><br>
+                <input type="text" id="name" placeholder="Tu nombre">
+            </div>
+            <div>
+                <label for="address">Dirección de entrega o consultorio:</label><br>
+                <textarea id="address" rows="3" placeholder="Tu dirección"></textarea>
+            </div>
+            <button onclick="sendOrder()">Enviar Pedido por WhatsApp</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
