@@ -197,7 +197,7 @@ function sendOrder() {
 
     message += `\nTotal a pagar: $${total.toLocaleString()}`;
 
-    const whatsappUrl = `https://wa.me/+573004804521?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+573013720468?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 }
 
