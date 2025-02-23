@@ -9,7 +9,7 @@ body {
 /* Encabezado y portada */
 .header {
     background-color: #0f2033;
-    color: rgb(25, 145, 182);
+    color: rgba(25, 182, 130, 0);
     text-align: center;
     padding: 2rem 1rem;
     position: relative;
