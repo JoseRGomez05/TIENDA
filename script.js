@@ -11,8 +11,9 @@ const products = {
     mecatos: [
         { id: 7, name: 'Detodito Picante', price: 3500, stock: 20, image: 'detodito.jpg', category: 'mecatos' },
         { id: 8, name: 'Doritos', price: 2500, stock: 15, image: 'dorito.jpg', category: 'mecatos' },
-        { id: 9, name: 'Cheetos', price: 1800, stock: 12, image: 'cheto.jpeg', category: 'mecatos' },
-        { id: 10, name: 'Cheesetris', price: 2200, stock: 15, image: 'ch.jpg', category: 'mecatos' },
+        { id: 9, name: 'Cheetos', price: 2400, stock: 12, image: 'cheto.jpeg', category: 'mecatos' },
+        { id: 9, name: 'Cheetos Pequeños', price: 1200, stock: 12, image: 'cheto.jpeg', category: 'mecatos' },
+        { id: 10, name: 'Cheesetres', price: 2300, stock: 15, image: 'ch.jpg', category: 'mecatos' },
         { id: 11, name: 'Boliqueso', price: 2000, stock: 15, image: 'boli.jpeg', category: 'mecatos' },
         { id: 12, name: 'Papas fr', price: 2500, stock: 15, image: 'pn.jpg', category: 'mecatos' },
         { id: 13, name: 'Papas Mayonesa', price: 2500, stock: 15, image: 'pm.jpg', category: 'mecatos' },
@@ -25,13 +26,13 @@ const products = {
         { id: 20, name: 'Bom Bom Kick', price: 1000, stock: 15, image: 'kic.jpg', category: 'mecatos' },
         { id: 21, name: 'BuBaloo', price: 300, stock: 15, image: 'bu.jpg', category: 'mecatos' },
         { id: 22, name: 'Chocolatina Nucita', price: 2000, stock: 15, image: 'nu.jpg', category: 'mecatos' },
-        { id: 23, name: 'Chocolatina Jet', price: 2500, stock: 15, image: 'jet.jpg', category: 'mecatos' },
+        { id: 23, name: 'Chocolatina Jet', price: 1400, stock: 15, image: 'jet.jpg', category: 'mecatos' },
         { id: 24, name: 'BurbuJet', price: 1800, stock: 15, image: 'bur.jpeg', category: 'mecatos' },
         { id: 25, name: 'Chocobreack', price: 300, stock: 15, image: 'cho.jpeg', category: 'mecatos' },
         { id: 26, name: 'Jumbo Mani', price: 2100, stock: 15, image: 'ju.jpeg', category: 'mecatos' },
         { id: 27, name: 'Galleta festival', price: 1800, stock: 15, image: 'fe.jpg', category: 'mecatos' },
         { id: 28, name: 'Mini Chips', price: 2200, stock: 15, image: 'mi.jpg', category: 'mecatos' },
-        { id: 29, name: 'Mini Brounie', price: 2500, stock: 15, image: 'c.jpeg', category: 'mecatos' },
+        { id: 29, name: 'Mini Brounie', price: 2000, stock: 15, image: 'c.jpeg', category: 'mecatos' },
         { id: 30, name: 'Clachis', price: 400, stock: 15, image: 'h.jpg', category: 'mecatos' },
         { id: 31, name: 'Arequipito', price: 2800, stock: 15, image: 'Are.jpg', category: 'mecatos' },
         { id: 32, name: 'Candysanch', price: 700, stock: 15, image: 'ca.jpeg', category: 'mecatos' },
@@ -41,9 +42,16 @@ const products = {
 
     ],
     drogueria: [
-        { id: 35, name: 'Aspirina', price: 500, stock: 30, image: 'aspirina.jpg', category: 'drogueria' },
-        { id: 36, name: 'Alcohol', price: 3000, stock: 25, image: 'alcohol.jpg', category: 'drogueria' },
-        { id: 37, name: 'Vendas', price: 1500, stock: 40, image: 'vendas.jpg', category: 'drogueria' }
+        { id: 35, name: 'Dororsifem', price: 2500, stock: 30, image: 'aspirina.jpg', category: 'drogueria' },
+        { id: 36, name: 'Dolex Gripa', price: 2200, stock: 25, image: 'alcohol.jpg', category: 'drogueria' },
+        { id: 36, name: 'Sevedol', price: 2000, stock: 25, image: 'alcohol.jpg', category: 'drogueria' },
+        { id: 36, name: 'Advil Ultra', price: 2500, stock: 25, image: 'alcohol.jpg', category: 'drogueria' },
+        { id: 36, name: 'Pax Dia', price: 3000, stock: 25, image: 'alcohol.jpg', category: 'drogueria' },
+        { id: 36, name: 'Curitas', price: 200, stock: 25, image: 'alcohol.jpg', category: 'drogueria' },
+        { id: 36, name: 'Naproxeno', price: 800, stock: 25, image: 'alcohol.jpg', category: 'drogueria' },
+        { id: 36, name: 'Loratadina', price: 500, stock: 25, image: 'alcohol.jpg', category: 'drogueria' },
+        { id: 36, name: 'Mieltertox', price: 2500, stock: 25, image: 'alcohol.jpg', category: 'drogueria' },
+        { id: 37, name: 'Trimebutina', price: 800, stock: 40, image: 'vendas.jpg', category: 'drogueria' }
     ],
     Bebidas: [
         { id: 38, name: 'Coca cola', price: 3500, stock: 30, image: 'co.jpeg', category: 'Bebidas' },
